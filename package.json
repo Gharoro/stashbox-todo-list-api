@@ -1,0 +1,29 @@
+{
+  "name": "stashbox-api",
+  "version": "1.0.0",
+  "description": "To Do list API",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "server": "nodemon server",
+    "test": "jest NODE_ENV=test ./tests"
+  },
+  "author": "Pureheart Gharoro",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.1.0",
+    "helmet": "^5.0.1",
+    "mongoose": "^6.1.6",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.1"
+  }
+}
