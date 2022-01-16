@@ -66,6 +66,7 @@ describe("PUT Endpoint - Edit A Task", () => {
     expect(res.body.success).toEqual(true);
     expect(res.body).toHaveProperty("message");
     expect(res.body.message).toEqual("Task successfully updated");
+    return res;
   });
   // failure
   it("should not update a task if task ID is invalid", async () => {
@@ -94,6 +95,7 @@ describe("DELETE Endpoint - Delete A Task", () => {
     expect(res.body.success).toEqual(true);
     expect(res.body).toHaveProperty("message");
     expect(res.body.message).toEqual("Task successfully deleted");
+    return res;
   });
   // failure
   it("should not delete a task if task ID is invalid", async () => {
