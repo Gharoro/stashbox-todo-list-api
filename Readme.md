@@ -2,7 +2,7 @@
 
 Git clone the repository to your computer by running:
 
-    `git clone repo url`
+    `git clone repo https://github.com/Gharoro/stashbox-todo-list-api`
 
 In the project directory, run the script below to install all dependecies
 
